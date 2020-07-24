@@ -1,7 +1,8 @@
+import datetime
+
 from Models.NLP_Main import NLP_Main
 from Models.NLP_Model import NLP_Model
 from Models.NLP_StopWords import NLP_StopWords
-
 
 class NLPCore():
 
@@ -12,4 +13,4 @@ class NLPCore():
             self.NLP_StopWords=NLP_StopWords()
         except Exception as Err:
             raise Err
-        print('NLPCore Ready')
+        print(datetime.datetime.now(),self.__class__,'Ready',sep=' ')
