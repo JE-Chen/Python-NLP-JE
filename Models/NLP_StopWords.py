@@ -1,5 +1,4 @@
 import jieba
-import numpy as np
 import warnings
 import os
 warnings.filterwarnings(action='ignore',category=UserWarning,module='gensim')

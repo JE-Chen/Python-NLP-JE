@@ -1,4 +1,4 @@
-from  NLP_Core.NLPCore import NLPCore
+from NLP_Core.NLPCore import NLPCore
 a=NLPCore()
 a.NLP_StopWords.Read_StopWords()
 a.NLP_Model.Load_Model('test.model')

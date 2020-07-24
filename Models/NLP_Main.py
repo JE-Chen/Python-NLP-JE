@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
 import jieba
-from jieba import analyse
 import logging
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
